@@ -35,5 +35,5 @@ APP_OPTIM := release
 
 # Use libc++ from LLVM. It is a modern BSD licensed implementation of
 # the standard C++ library.
-APP_STL := c++_static
-APP_ABI := armeabi-v7a
+APP_STL := gnustl_static
+APP_ABI := armeabi-v8a
