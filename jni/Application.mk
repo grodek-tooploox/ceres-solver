@@ -36,6 +36,7 @@ APP_CPPFLAGS += -ftree-vectorize
 APP_CPPFLAGS += -O3
 APP_CPPFLAGS += -DGOOGLE_STRIP_LOG=1
 APP_CPPFLAGS += -DMAX_LOG_LEVEL=0
+APP_CPPFLAGS += -s
 APP_OPTIM := release
 
 APP_STL := gnustl_static
