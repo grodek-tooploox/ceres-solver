@@ -32,7 +32,11 @@ APP_PROJECT_PATH := $(call my-dir)
 APP_CPPFLAGS += -fno-exceptions
 APP_CPPFLAGS += -fno-rtti
 APP_CPPFLAGS += -std=c++11
+APP_CPPFLAGS += -ftree-vectorize
+APP_CPPFLAGS += -O3
+APP_CPPFLAGS += -DGOOGLE_STRIP_LOG=1
+APP_CPPFLAGS += -DMAX_LOG_LEVEL=0
 APP_OPTIM := release
 
 APP_STL := gnustl_static
-APP_ABI := armeabi-v8a
+APP_ABI := arm64-v8a armeabi-v7a

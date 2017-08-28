@@ -40,7 +40,8 @@
 #
 # Author: jorgenpt@gmail.com (Jorgen Tjerno)
 #         alexs.mac@gmail.com (Alex Stewart)
-
+echo "true"
+exit 1
 # Extracts 'r5c' into '5 c', also handles newer versions of the form
 # 'r9d (64-bit)' and versions >= 10.
 function get_major_minor() {
